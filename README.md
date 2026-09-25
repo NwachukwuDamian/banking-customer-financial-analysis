@@ -111,17 +111,6 @@ This project demonstrates a range of SQL techniques used to investigate and anal
 
 ```text
 banking-customer-financial-analysis/
-│
-├── README.md
-│
-├── banking_analysis.sql
-│
-├── customers.csv
-├── accounts.csv
-├── transactions.csv
-├── loans.csv
-└── branches.csv
-banking-customer-financial-analysis/
 ├── README.md
 ├── sql/
 │   └── banking_analysis.sql
