@@ -121,6 +121,8 @@ banking-customer-financial-analysis/
     ├── transactions.csv
     ├── loans.csv
     └── branches.csv
+```
+
 ## Data Model & Relationships
 
 The project uses a relational banking database in which the tables are connected through primary and foreign keys.
@@ -133,3 +135,20 @@ Customers
    │       └── Branches
    │
    └── Loans
+```
+
+### Table Relationships
+
+- Customers → Accounts: `customer_id`
+- Customers → Loans: `customer_id`
+- Accounts → Transactions: `account_id`
+- Accounts → Branches: `branch_id`
+
+
+### Relationship Logic
+
+Transactions are linked to customers indirectly through accounts:
+
+**Customers → Accounts → Transactions**
+
+This allows transaction activity to be analyzed at the customer level while maintaining a normalized relational structure.
