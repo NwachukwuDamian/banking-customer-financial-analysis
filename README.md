@@ -42,3 +42,28 @@ The project uses a fictional relational banking dataset consisting of five inter
 - MySQL Workbench
 - SQL
 - GitHub
+## Key Findings
+
+The analysis revealed several notable patterns across customer activity, transactions, loans, and branches.
+
+### Customer & Transaction Activity
+
+- The dataset contains 40 customers and 40 accounts across multiple Nigerian cities.
+- 80 transactions were analyzed across deposits, withdrawals, transfers, and payments.
+- Kevin Baker recorded the highest total transaction value at ₦2.45M, followed by Betty Young at ₦2.00M and Anthony Harris at ₦1.60M.
+
+### Loan Portfolio
+
+- The loan portfolio contains 30 loans, consisting of 23 active loans and 7 completed loans.
+- Abuja recorded the highest total active-loan exposure at ₦44.5M.
+- Lagos followed with ₦36.05M, while Port Harcourt and Kano recorded ₦28.3M and ₦23M respectively.
+
+### High-Value Customer Exposure
+
+- Six customers recorded more than ₦1M in total transaction value while also having an active loan above ₦3M.
+- This group represents customers with both significant financial activity and substantial outstanding loan exposure.
+
+### Branch Performance
+
+- Branch-level analysis was used to compare account counts, account balances, and transaction activity.
+- This provides a basis for identifying branches with higher levels of customer and financial activity.
