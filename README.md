@@ -9,21 +9,7 @@ Using MySQL, I analyzed a relational banking dataset to answer practical busines
 Rather than focusing only on writing SQL queries, the project follows a business-driven approach: identifying questions, analyzing the data, uncovering patterns, and translating those patterns into actionable business insights.
 
 ## Business Objectives
-## SQL Techniques Demonstrated
 
-This project demonstrates a range of SQL techniques used to investigate and analyze relational banking data.
-
-- `SELECT` and `WHERE` for data retrieval and filtering
-- `ORDER BY` and `LIMIT` for sorting and identifying top records
-- Aggregate functions: `COUNT()`, `SUM()`, `AVG()`, `MIN()`, and `MAX()`
-- `GROUP BY` and `HAVING` for grouped analysis and filtering
-- `INNER JOIN` and `LEFT JOIN` for combining related tables
-- `CASE WHEN` for customer segmentation and conditional analysis
-- Subqueries for comparing records against calculated benchmarks
-- Common Table Expressions (`CTEs`) for structuring multi-step analysis
-- Window functions including `ROW_NUMBER()` and `DENSE_RANK()`
-- `PARTITION BY` for ranking customers within cities
-- Date filtering for time-based transaction analysis
 The analysis aims to:
 
 1. Identify high-value customers based on account balances, income, and transaction activity.
@@ -135,3 +121,13 @@ banking-customer-financial-analysis/
 ├── transactions.csv
 ├── loans.csv
 └── branches.csv
+banking-customer-financial-analysis/
+├── README.md
+├── sql/
+│   └── banking_analysis.sql
+└── data/
+    ├── customers.csv
+    ├── accounts.csv
+    ├── transactions.csv
+    ├── loans.csv
+    └── branches.csv
