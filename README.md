@@ -67,3 +67,28 @@ The analysis revealed several notable patterns across customer activity, transac
 
 - Branch-level analysis was used to compare account counts, account balances, and transaction activity.
 - This provides a basis for identifying branches with higher levels of customer and financial activity.
+## Business Recommendations
+
+Based on the patterns identified in the analysis, the following actions could be considered by the bank:
+
+### 1. Strengthen High-Value Customer Management
+
+Customers with high transaction activity and significant account balances could be considered for targeted relationship-management strategies, personalized financial products, and retention initiatives.
+
+### 2. Monitor High Loan-Exposure Customers
+
+Customers combining substantial transaction activity with large active loans could receive closer portfolio monitoring. Their transaction behavior and repayment performance could be reviewed together to support responsible credit management.
+
+### 3. Review Regional Loan Exposure
+
+Abuja recorded the highest active-loan exposure in the dataset. Management could investigate the drivers of this concentration and compare loan performance across cities before making lending decisions.
+
+### 4. Use Branch-Level Performance for Resource Planning
+
+Differences in account balances, customer accounts, and transaction activity across branches could help inform decisions about staffing, service capacity, and customer acquisition efforts.
+
+### 5. Develop Customer Segmentation Strategies
+
+Income and financial-activity patterns could be used to create customer segments and tailor products or services to different customer groups.
+
+> **Note:** These recommendations are based on patterns in a fictional dataset and are intended to demonstrate analytical reasoning rather than represent real banking decisions.
