@@ -106,3 +106,18 @@ Differences in account balances, customer accounts, and transaction activity acr
 Income and financial-activity patterns could be used to create customer segments and tailor products or services to different customer groups.
 
 > **Note:** These recommendations are based on patterns in a fictional dataset and are intended to demonstrate analytical reasoning rather than represent real banking decisions.
+## SQL Techniques Demonstrated
+
+This project demonstrates a range of SQL techniques used to investigate and analyze relational banking data.
+
+- `SELECT` and `WHERE` for data retrieval and filtering
+- `ORDER BY` and `LIMIT` for sorting and identifying top records
+- Aggregate functions: `COUNT()`, `SUM()`, `AVG()`, `MIN()`, and `MAX()`
+- `GROUP BY` and `HAVING` for grouped analysis and filtering
+- `INNER JOIN` and `LEFT JOIN` for combining related tables
+- `CASE WHEN` for customer segmentation and conditional analysis
+- Subqueries for comparing records against calculated benchmarks
+- Common Table Expressions (`CTEs`) for structuring multi-step analysis
+- Window functions including `ROW_NUMBER()` and `DENSE_RANK()`
+- `PARTITION BY` for ranking customers within cities
+- Date filtering for time-based transaction analysis
