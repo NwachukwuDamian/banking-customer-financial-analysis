@@ -121,3 +121,17 @@ This project demonstrates a range of SQL techniques used to investigate and anal
 - Window functions including `ROW_NUMBER()` and `DENSE_RANK()`
 - `PARTITION BY` for ranking customers within cities
 - Date filtering for time-based transaction analysis
+## Project Structure
+
+```text
+banking-customer-financial-analysis/
+│
+├── README.md
+│
+├── banking_analysis.sql
+│
+├── customers.csv
+├── accounts.csv
+├── transactions.csv
+├── loans.csv
+└── branches.csv
