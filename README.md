@@ -13,16 +13,6 @@ Rather than focusing only on writing SQL queries, the project follows a business
 
 The project uses a relational banking database in which the tables are connected through primary and foreign keys.
 
-```text
-Customers
-   │
-   ├── Accounts ─── Transactions
-   │       │
-   │       └── Branches
-   │
-   └── Loans
-The analysis aims to:
-
 1. Identify high-value customers based on account balances, income, and transaction activity.
 
 2. Analyze customer transaction behavior, including deposits, withdrawals, transfers, and payments.
@@ -131,3 +121,15 @@ banking-customer-financial-analysis/
     ├── transactions.csv
     ├── loans.csv
     └── branches.csv
+## Data Model & Relationships
+
+The project uses a relational banking database in which the tables are connected through primary and foreign keys.
+
+```text
+Customers
+   │
+   ├── Accounts ─── Transactions
+   │       │
+   │       └── Branches
+   │
+   └── Loans
