@@ -9,7 +9,6 @@ Using MySQL, I analyzed a relational banking dataset to answer practical busines
 Rather than focusing only on writing SQL queries, the project follows a business-driven approach: identifying questions, analyzing the data, uncovering patterns, and translating those patterns into actionable business insights.
 
 ## Business Objectives
-## Data Model & Relationships
 
 The project uses a relational banking database in which the tables are connected through primary and foreign keys.
 
