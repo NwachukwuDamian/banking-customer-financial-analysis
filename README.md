@@ -128,12 +128,16 @@ banking-customer-financial-analysis/
 ├── README.md
 ├── sql/
 │   └── banking_analysis.sql
-└── data/
-    ├── customers.csv
-    ├── accounts.csv
-    ├── transactions.csv
-    ├── loans.csv
-    └── branches.csv
+├── data/
+│   ├── customers.csv
+│   ├── accounts.csv
+│   ├── transactions.csv
+│   ├── loans.csv
+│   └── branches.csv
+└── visuals/
+    ├── active_loan_exposure_by_city.png
+    ├── top_5_customers_transaction_value.png
+    └── branch_transaction_performance.png
 ```
 
 ## Data Model & Relationships
