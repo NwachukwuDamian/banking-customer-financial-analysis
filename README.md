@@ -112,7 +112,7 @@ This project demonstrates a range of SQL techniques used to investigate and anal
 
 ### Active Loan Exposure by City
 
-![Active Loan Exposure by City](visuals/active_loan_exposure_by_city.png)
+![Active Loan Exposure by City](./visuals/active_loan_exposure_by_city.png)
 
 ### Top 5 Customers by Transaction Value
 
