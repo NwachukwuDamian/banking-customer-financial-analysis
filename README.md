@@ -107,6 +107,20 @@ This project demonstrates a range of SQL techniques used to investigate and anal
 - Window functions including `ROW_NUMBER()` and `DENSE_RANK()`
 - `PARTITION BY` for ranking customers within cities
 - Date filtering for time-based transaction analysis
+
+## Project Visualizations
+
+### Active Loan Exposure by City
+
+![Active Loan Exposure by City](visuals/active_loan_exposure_by_city.png)
+
+### Top 5 Customers by Transaction Value
+
+![Top 5 Customers by Transaction Value](visuals/top_5_customers_transaction_value.png)
+
+### Total Transaction Value by Branch
+
+![Total Transaction Value by Branch](visuals/branch_transaction_performance.png)
 ## Project Structure
 
 ```text
